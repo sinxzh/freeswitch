@@ -1,1 +1,2 @@
-<X-PRE-PROCESS cmd="include" data="vanilla/freeswitch.xml"/>
+<!-- <xX-PRE-PROCESS cmd="include" data="vanilla/freeswitch.xml"/> -->
+<X-PRE-PROCESS cmd="include" data="sin/freeswitch.xml"/>

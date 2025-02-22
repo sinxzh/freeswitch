@@ -1,4 +1,4 @@
-applications/mod_av
+#applications/mod_av
 #applications/mod_avmd
 #applications/mod_bert
 #applications/mod_blacklist
@@ -9,7 +9,7 @@ applications/mod_commands
 applications/mod_conference
 #applications/mod_curl
 #applications/mod_cv
-applications/mod_db
+#applications/mod_db
 #applications/mod_directory
 #applications/mod_distributor
 applications/mod_dptools
@@ -32,12 +32,12 @@ applications/mod_httapi
 #applications/mod_osp
 #applications/mod_prefix
 #applications/mod_redis
-applications/mod_signalwire
-applications/mod_sms
+#applications/mod_signalwire
+#applications/mod_sms
 #applications/mod_snapshot
-applications/mod_spandsp
+#applications/mod_spandsp
 #applications/mod_spy
-applications/mod_test
+#applications/mod_test
 #applications/mod_translate
 applications/mod_valet_parking
 #applications/mod_video_filter
@@ -47,21 +47,21 @@ applications/mod_voicemail
 #asr_tts/mod_flite
 #asr_tts/mod_pocketsphinx
 #asr_tts/mod_tts_commandline
-codecs/mod_amr
+#codecs/mod_amr
 #codecs/mod_amrwb
-codecs/mod_b64
+#codecs/mod_b64
 #codecs/mod_bv
 #codecs/mod_codec2
 #codecs/mod_com_g729
 codecs/mod_g723_1
 codecs/mod_g729
 #codecs/mod_ilbc
-codecs/mod_opus
+#codecs/mod_opus
 #codecs/mod_silk
 #codecs/mod_siren
 #databases/mod_mariadb
-databases/mod_pgsql
-dialplans/mod_dialplan_asterisk
+#databases/mod_pgsql
+#dialplans/mod_dialplan_asterisk
 #dialplans/mod_dialplan_directory
 dialplans/mod_dialplan_xml
 #directories/mod_ldap
@@ -69,11 +69,11 @@ dialplans/mod_dialplan_xml
 #endpoints/mod_h323
 endpoints/mod_loopback
 #endpoints/mod_opal
-endpoints/mod_rtc
+#endpoints/mod_rtc
 #endpoints/mod_rtmp
-endpoints/mod_skinny
+#endpoints/mod_skinny
 endpoints/mod_sofia
-endpoints/mod_verto
+#endpoints/mod_verto
 #event_handlers/mod_amqp
 event_handlers/mod_cdr_csv
 #event_handlers/mod_cdr_mongodb
@@ -100,7 +100,7 @@ formats/mod_tone_stream
 #formats/mod_opusfile
 #languages/mod_basic
 #languages/mod_java
-languages/mod_lua
+#languages/mod_lua
 #languages/mod_managed
 #languages/mod_perl
 #languages/mod_python
@@ -133,8 +133,8 @@ say/mod_say_en
 xml_int/mod_xml_cdr
 #xml_int/mod_xml_curl
 #xml_int/mod_xml_ldap
-xml_int/mod_xml_rpc
-xml_int/mod_xml_scgi
+#xml_int/mod_xml_rpc
+#xml_int/mod_xml_scgi
 
 #mod_freetdm|https://github.com/freeswitch/freetdm.git -b master
 

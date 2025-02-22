@@ -2463,7 +2463,9 @@ SWITCH_DECLARE(switch_status_t) switch_core_init_and_modload(switch_core_flag_t 
 	switch_core_set_signal_handlers();
 	switch_load_network_lists(SWITCH_FALSE);
 
+#if 0
 	switch_msrp_init();
+#endif
 
 	switch_log_printf(SWITCH_CHANNEL_LOG, SWITCH_LOG_CONSOLE, "Bringing up environment.\n");
 	switch_log_printf(SWITCH_CHANNEL_LOG, SWITCH_LOG_CONSOLE, "Loading Modules.\n");
